@@ -168,3 +168,23 @@
   gap: 20px;
   align-items: center;     /* Vertically center */
 }
+
+
+@media screen and (max-width: 1000px) {
+  .banner-navbar{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .text-box, .about-2-box, .about-2-box, .outter-box{
+    width: 98%;
+  }
+
+  .inner-box, .text-box, 
+  .cloud-txt{
+    font-size: 25px;
+  }
+  
+}
