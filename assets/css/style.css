@@ -1,0 +1,170 @@
+@import url(/assets/fluffy-font/Fluffy.ttf);
+
+@font-face {
+  font-family: fluffy;
+  src: url(/assets/fluffy-font/Fluffy.ttf);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Sedgwick Ave Display', cursive;
+    /* font-family: fluffy; */
+  }
+
+  body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #02ADFF, #02ADFF, #02ADFF);
+
+  }
+
+  section{
+    height: 100vh !important;
+    width: 100vw !important;
+    margin: 0px !important;
+  }
+  
+  .banner{
+    background-image: linear-gradient(to bottom, #02ADFF, #02ADFF, #ffffff);
+    background-image: url(/assets/images/bg/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-navbar{
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  padding: 40px;
+}
+
+.banner-navbar a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000 !important;
+}
+
+.about{
+  background-image: linear-gradient(to bottom,#ffffff, #02ADFF, #02ADFF);
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+}
+
+.outter-box, .outter-outter-box, .about-2, .about-3, .about-4{
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; 
+  position: relative;
+
+}
+
+.inner-box , .outter-box{
+  -webkit-clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.outter-outter-box{
+  width: 80%;
+}
+
+.outter-box{
+  background-color: #FBE547;
+  width: 60%;
+}
+
+.outter-box img{
+  z-index: 20;
+}
+
+.inner-box{
+  background-color: #62A26A;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+
+#upper_left {
+	position: absolute;
+	top: 0;
+	left: 10%;
+}
+#upper_right {
+	position: absolute;
+	top: 0;
+	right: 0%;
+}
+#lower_left {
+	position: absolute;
+	bottom: 0%;
+	left: 0;
+}
+#lower_right {
+	bottom: 0%;
+	right: 0%;
+	position: absolute;
+}
+
+.about-2{
+  background-image: url(/assets/images/bg/track-bg-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-2-box{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  width: 55%;
+  background-color: #785B49;
+  border: 5px solid #000;
+  padding: 45px;
+  clip-path: polygon(4% 0, 92% 0, 97% 100%, 11% 100%);
+}
+
+
+.about-3{
+  background-image: linear-gradient(to bottom, #02ADFF, #02ADFF, #ffffff);
+  background-image: url(/assets/images/bg/cloud-bg.png);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+.cloud-txt{
+  width: 50%;
+  font-size: 30px;
+}
+
+.about-4{
+  background-image: linear-gradient(to bottom, #02ADFF, #02ADFF, #ffffff);
+  background-image: url(/assets/images/bg/track-bg-2.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.text-box{
+  color: #fff;
+  font-size: 30px;
+  width: 50%;
+}
+
+
+
+.u-class-1{
+  height: 200px;
+}
+
+
+.socials{
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  gap: 20px;
+  align-items: center;     /* Vertically center */
+}
